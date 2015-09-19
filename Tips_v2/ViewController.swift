@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
+    var myColor : UIColor = UIColor(red:255, green:255, blue:255, alpha: 0.4 )
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,10 @@ class ViewController: UIViewController {
         
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
+        billField.layer.borderColor = myColor.CGColor
+        billField.layer.cornerRadius = 8.0
+        billField.layer.borderWidth = 1.0
+        
         
     }
     
@@ -43,8 +48,8 @@ class ViewController: UIViewController {
         tipLabel.text = "$\(tip)"
         totalLabel.text = "$\(total)"
         
-        tipLabel.text = String(format: "%.2f", tip)
-        totalLabel.text = String(format: "%.2f", total)
+        tipLabel.text = String(format: "$%.2f", tip)
+        totalLabel.text = String(format: "$%.2f", total)
         
     }
 
