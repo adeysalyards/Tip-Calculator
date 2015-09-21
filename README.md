@@ -9,3 +9,4 @@ I customized its appearence using interface builder. I also created a custom bor
 
 Total, this project took me 8 hours (at least 5 of that was spent in Google.)
 
+![alt tag](https://raw.github.com/adeysalyards/tip-calculator/master/Images/TipCalculatorDemo.gif)
