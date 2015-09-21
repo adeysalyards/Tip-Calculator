@@ -1,12 +1,24 @@
 # Tip-Calculator
 Learning Xcode and Swift!
 
-Thrilled to post my first app, a purple tip calculator! I followed CodePath's tutorial to build the functionality, https://gist.github.com/timothy1ee/434cc97da182c490ea74#file-3-md.
+Thrilled to post my first app, a purple tip calculator! 
 
-This app allows the user to input their bill amount (with a decimal pad keyboard), choose the tip percentage (with a segmented control), and see both the tip amount and total amount.
+Time spent: 8 hours (at least 5 of that was spent in Google)
 
-I customized its appearence using interface builder. I also created a custom border style for the text field with placeholder text and added a custom font. To finish it, I created an purple app icon and launch color to match.
+Required User Stories:<br>
+  [x] User can input their bill amount, including decimals <br>
+  [x] User can choose tip amount <br>
+  [x] User can see both tip amount and total amount <br>
+  
+Optional User Stories <br>
+  [x] Added custom font (Avenir) <br>
+  [x] Created an app icon and modified launch screen <br>
+  [x] The bill amount text field is customized beyond what interface builder provides, and it has placeholder text<br>
 
-Total, this project took me 8 hours (at least 5 of that was spent in Google.)
+I followed CodePath's tutorial to build the functionality, https://gist.github.com/timothy1ee/434cc97da182c490ea74#file-3-md.
+
+Walkthrough:
 
 ![alt tag](https://raw.github.com/adeysalyards/tip-calculator/master/Images/TipCalculatorDemo.gif)
+
+Created with <a href="http://www.cockos.com/licecap/">Licecap.</a>
