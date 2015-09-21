@@ -1,5 +1,5 @@
 # Tip-Calculator
-Learning Xcode and Swift!
+Learning Xcode and Swift.
 
 Thrilled to post my first app, a purple tip calculator! 
 
