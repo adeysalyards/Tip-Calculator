@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
-    var myColor : UIColor = UIColor(red:255, green:255, blue:255, alpha: 0.4 )
+    var myColor : UIColor = UIColor(red:255, green:255, blue:255, alpha: 0.4)
+    @IBOutlet weak var secondColorView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,8 +26,8 @@ class ViewController: UIViewController {
         billField.layer.borderColor = myColor.CGColor
         billField.layer.cornerRadius = 8.0
         billField.layer.borderWidth = 1.0
-        
-        
+        self.view.backgroundColor = UIColor(red: 52/255.0, green: 152/255.0, blue: 219/255.0, alpha: 1.0)
+        secondColorView.backgroundColor = UIColor(red:41/255.0, green: 128/255.0, blue: 185/255.0, alpha:1.0)
     }
     
 
@@ -51,6 +52,19 @@ class ViewController: UIViewController {
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
         
+        switch tipControl.selectedSegmentIndex {
+        case 0:
+            self.view.backgroundColor = UIColor(red: 241/255.0, green: 196/255.0, blue: 15/255.0, alpha: 1.0)
+            secondColorView.backgroundColor = UIColor(red:243/255.0, green: 156/255.0, blue: 18/255.0, alpha:1.0)
+        case 1:
+            self.view.backgroundColor = UIColor(red: 52/255.0, green: 152/255.0, blue: 219/255.0, alpha: 1.0)
+            secondColorView.backgroundColor = UIColor(red:41/255.0, green: 128/255.0, blue: 185/255.0, alpha:1.0)
+        case 2:
+            self.view.backgroundColor = UIColor(red: 168/255.0, green: 89/255.0, blue: 182/255.0, alpha: 1.0)
+            secondColorView.backgroundColor = UIColor(red:142/255.0, green: 75/255.0, blue: 154/255.0, alpha:1.0)
+        default:
+            self.view.backgroundColor = UIColor(red: 243/255.0, green: 156/255.0, blue: 18/255.0, alpha: 1.0)
+        }
     }
 
     @IBAction func onTap(sender: AnyObject) {
