@@ -14,6 +14,7 @@ Optional User Stories:
   * [x] Added custom font (Avenir) 
   * [x] Created an app icon and modified launch screen 
   * [x] The bill amount text field is customized beyond what interface builder provides, and it has placeholder text
+  * [x] [ADDED ON MONDAY] The two-tone background color changes according to the tip amount chosen
 
 I followed CodePath's tutorial to build the functionality, https://gist.github.com/timothy1ee/434cc97da182c490ea74#file-3-md.
 
