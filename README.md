@@ -20,6 +20,6 @@ I followed CodePath's tutorial to build the functionality, https://gist.github.c
 
 Walkthrough:
 
-!(https://raw.github.com/adeysalyards/tip-calculator/master/Images/TipCalculatorDemo.gif)
+![](https://raw.github.com/adeysalyards/tip-calculator/master/Images/TipCalculatorDemo.gif)
 
 Created with <a href="http://www.cockos.com/licecap/">Licecap.</a>
